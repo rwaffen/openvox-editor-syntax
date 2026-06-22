@@ -1,7 +1,7 @@
 {
-  "name": "puppet-editor-syntax",
+  "name": "openvox-editor-syntax",
   "version": "1.3.7",
-  "description": "",
+  "description": "TextMate syntax grammar for the OpenVox Puppet DSL",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/**/*.js",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/puppetlabs/puppet-editor-syntax.git"
+    "url": "git+https://github.com/voxpupuli/openvox-editor-syntax.git"
   },
-  "author": "Glenn Sarti",
+  "author": "Voxpupuli Project contributors",
   "license": "MIT",
   "devDependencies": {
     "expect.js": "^0.3.1",
