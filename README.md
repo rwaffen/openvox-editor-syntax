@@ -1,8 +1,10 @@
-# Puppet Editor Syntax
+# OpenVox Editor Syntax
 
-![Build Status](https://travis-ci.org/lingua-pupuli/puppet-editor-syntax.svg?branch=master)[![Build status](https://ci.appveyor.com/api/projects/status/9x2cvuj7bcavma9o/branch/master?svg=true)](https://ci.appveyor.com/project/lingua-pupuli/puppet-editor-syntax/branch/master)
+Syntax highlighting files for editors such as VS Code, Atom, Sublime Text,
+and TextMate for the OpenVox Puppet DSL.
 
-Syntax highlighting files for editors (VSCode, Atom, SublimeText, TextMate, etc.) for the Puppet Language
+The TextMate scope `source.puppet` and existing `.puppet` token scopes are
+retained for compatibility with editor themes and existing integrations.
 
 ## Information
 
@@ -56,11 +58,11 @@ This project is cross platform, and can be developed using Mac, Linux or Windows
 
 If you're using [gitpod](https://gitpod.io), you can create a workspace using:
 
-`https://gitpod.io/#https://github.com/<Github Username>/puppet-editor-syntax/tree/<Git Branch>`
+`https://gitpod.io/#https://github.com/<Github Username>/openvox-editor-syntax/tree/<Git Branch>`
 
 To just browse master:
 
-[https://gitpod.io/#https://github.com/puppetlabs/puppet-editor-syntax](https://gitpod.io/#https://github.com/puppetlabs/puppet-editor-syntax)
+[https://gitpod.io/#https://github.com/voxpupuli/openvox-editor-syntax](https://gitpod.io/#https://github.com/voxpupuli/openvox-editor-syntax)
 
 ### Running tests
 

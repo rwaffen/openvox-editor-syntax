@@ -134,7 +134,7 @@
         </dict>
       </array>
     </dict>
-    <!-- Ref https://puppet.com/docs/bolt/0.x/writing_plans.html#naming-plans -->
+    <!-- OpenBolt retains the compatible plan naming rules: https://github.com/voxpupuli/openbolt -->
     <dict>
       <key>begin</key>
       <string>^\s*(plan)\s+((?#Qualified Resource Name)(?:[a-z][a-z0-9_]*)?(?:::[a-z][a-z0-9_]*)+|(?#Bareword Resource Name)[a-z][a-z0-9_]*)\s*</string>
